@@ -28,8 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var restar = x-y;
-  return restar;
+  return x - y;
 }
 
 function sonIguales(x, y) {
@@ -175,16 +174,12 @@ function colors(color) {
  switch (color){
    case 'blue':
      return 'This is blue';
-      break;
    case 'red':
      return 'This is red';
-      break;
    case 'green':
      return 'This is green';
-      break;cd
    case 'orange':
      return 'This is orange';
-      break;
    default: 
       return 'Color not found';
  }
